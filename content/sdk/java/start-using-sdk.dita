@@ -29,7 +29,7 @@
   </dependency>
 </dependencies>]]></codeblock>
 
-      <p>The <codeph>java-client</codeph> dependency will pull in two more transitive dependencies. One is called <codeph>com.couchbase.client.core-io</codeph> and is a internal dependency which performs all the underlying tasks like IO and cluster management. The other dependency is <codeph>RxJava</codeph> which is both used internally and exposed as a first-class API to the user in order to perform scalable and performant asynchronous, reactive operations.</p>
+      <p>The <codeph>java-client</codeph> dependency will pull in two more transitive dependencies. One is called <codeph>com.couchbase.client.core-io</codeph> and is an internal dependency which performs all the underlying tasks like IO and cluster management. The other dependency is <codeph>RxJava</codeph> which is both used internally and exposed as a first-class API to the user in order to perform scalable and performant asynchronous, reactive operations.</p>
 
 			<p>Information on new features, fixes, known issues as well as information on how to install
         older release versions is <xref
